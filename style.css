@@ -68,7 +68,7 @@ th, td {
   color: white;
 }
 #countryResults th {
-  background-color: #f16059;
+  background-color: black;
   color: white;
 }
 .name-1 {
@@ -80,7 +80,7 @@ th, td {
   color: white;
 }
 .winner {
-  background-color: #f16059;
+  background-color: black;
   color: white;
 }
 
