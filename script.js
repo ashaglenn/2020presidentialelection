@@ -12,16 +12,9 @@ var michelle = createPolitician("Biden",[16, 27, 239]);
 var kamala = createPolitician("Trump", [242, 48, 10]);
 
 michelle.electionResults = [0, 0, 11, 0, 55, 9, 7, 3, 3, 0, 16, 4, 0, 20, 0, 0, 0, 0, 0, 4, 10, 11, 16, 10, 0, 0, 3, 0, 6, 4, 14, 5, 29, 0, 0, 0, 0, 7, 0, 4, 0, 0, 0, 0, 0, 3, 13, 12, 0, 10, 0];
- 
+
 kamala.electionResults = [9, 3, 0, 6, 0, 0, 0, 0, 0, 29, 0, 0, 4, 0, 11, 6, 6, 8, 8, 0, 0, 0, 0, 0, 6, 10, 0, 5, 0, 0, 0, 0, 0, 15, 3, 18, 7, 0, 20, 0, 9, 3, 11, 38, 6, 0, 0, 0, 5, 0, 3];
-michelle.electionResults[9] = 1;
-kamala.electionResults[9] = 28;
 
-michelle.electionResults[4] = 17;
-kamala.electionResults[4] = 38;
-
-michelle.electionResults[43] = 11;
-kamala.electionResults[43] = 27;
 
 michelle.tallyUpTotalVotes = function(){
       this.totalVotes = 0;
